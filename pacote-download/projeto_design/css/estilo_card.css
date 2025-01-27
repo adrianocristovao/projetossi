@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header { /*cabeçalho*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #222;
+    color: white;
+    font-family: Cambria, Arial;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140vh; /*representa a porcentagem da altura da viewpoint */
+    font-family: "Arial";
+    gap: 16px; /*define os espaços (gutters) entre as linhas e colunas */
+    padding-top: 250px;
+}
+
+body {
+    background-color: rgb(235, 241, 244);
+    background-size: 100% 100%;
+
+}
+
+.card {
+    padding-top: 50px;
+    background-color: #fff;
+    width: 350px;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa; /*é usado para adcionar
+    efeitos de sombra
+    em volta de um elemento */
+    text-align: center;
+
+    margin: 9px;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px; /* arredondamento de bordas */
+}
+
+.card div {
+    display: flex;
+    flex-direction: column; /* alinhamento em colunas */
+    justify-content: center;
+    align-items: center;
+    gap: 4px; /* define os espaços (gutters) entre as linhas e colunas */
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card h2 {
+    font-size: .9rem;
+    color: #5b5858aa;
+}
+
+.card button {
+    background-color: #2192FF;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.card button:hover {
+    background-color: #011325;
+    cursor: pointer;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+    background-color: transparent;
+    border-radius: 12px;
+    margin: 9px;
+}
+
+.global {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    font-family: Cambria, Arial;
+    margin-top: 250px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
